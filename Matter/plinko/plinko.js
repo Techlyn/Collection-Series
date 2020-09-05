@@ -1,8 +1,10 @@
 function Plinko(x, y, r) {
 
+
+
     var options = {
         isStatic: true,
-        restitution: 1,
+        restitution: 0,
         friction: 0,
 
     }
@@ -13,8 +15,8 @@ function Plinko(x, y, r) {
 
 
     Plinko.prototype.show = function () {
-        fill(0, 255, 0);
-        stroke(255);
+        fill(360, 0, 255);
+        noStroke();
         var pos = this.body.position;
         push();
         translate(pos.x, pos.y);

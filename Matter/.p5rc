@@ -2,6 +2,7 @@
   "name": "Matter",
   "projects": [
     "fallingBalls",
-    "constraints"
+    "constraints",
+    "plinko"
   ]
 }
