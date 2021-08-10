@@ -9,7 +9,7 @@ function Particle(x, y, r) {
         density: 1
     }
 
-    x += random(-1, 1);
+    x += random(-30, 30);
     this.body = Bodies.circle(x, y, r, options);
     this.r = r;
     World.add(world, this.body);
