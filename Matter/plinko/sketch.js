@@ -49,7 +49,7 @@ function setup() {
 }
 
 function newParticle() {
-	var p = new Particle(300, 0, 8 + random(-10, 10);
+	var p = new Particle(300, 0, 8 + random(-10, 10));
 	particles.push(p);
 }
 
