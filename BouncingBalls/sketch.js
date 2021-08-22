@@ -6,7 +6,7 @@ var ballSafe = 0;
 var spawnCheckBool = true;
 
 function setup() {
-  createCanvas(720, 480);
+  createCanvas(windowWidth, windowHeight);
   //intiates the an array of balls
   for (let i = 0; i < totalBalls; i++) {
     var diameter = random(12, 36);
